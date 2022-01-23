@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Forms</h1>
+
+    <form action="./Sign-in.html" method="get">
+       <div>
+            <label for="fn">Full Name:</label>
+            <input 
+            id="fn" 
+            type="text" 
+            placeholder="Enter Full Name"
+            maxlength="10"
+            minlength="3"
+            required
+            name="fullname">
+       </div>
+
+       <br>
+
+       <div>
+            <label for="pwd">Password:</label>
+            <input 
+            id="pwd" 
+            type="password" 
+            placeholder="Enter Password"
+            required
+            name="password">
+       </div>
+
+       <br>
+       <div>
+            <label for="pwd">Number:</label>
+            <input 
+            type="number" 
+            placeholder="Number"
+            min="0"
+            max="10"
+            name="count">
+        </div>
+
+       <br>
+       <div>
+            <label for="pwd">Email:</label>
+            <input
+            id="pwd" 
+            type="email" 
+            placeholder="Enter Email"
+            required
+            name="email">
+        </div>
+
+        <br>
+        <div>
+            <label>Search:</label>
+            <input 
+            type="search" 
+            placeholder="Search...."
+            name="search">
+        </div>
+
+        <br>
+        <div>
+            <label>Select Date:</label>
+            <input 
+            type="date"
+            name="date">
+        </div>
+
+    <br>
+    <div>
+        <input 
+        id="c"
+        type="checkbox"
+        name="check">
+        <label for="c">I accept terms & conditions</label>
+    </div>
+
+    <br>
+    <div>
+        <p>Select Gender:</p>
+        <label for="">Male</label>
+        <input type="radio" name="gender">
+
+        <label for="">Female</label>
+        <input type="radio" name="gender">
+
+        <label for="">Others</label>
+        <input type="radio" name="gender">
+    </div>
+
+    <br>
+
+    <div>
+        <p>STATE:</p>
+        <input 
+        type="text"
+        list="states"
+        placeholder="state....">
+
+    <datalist id="states">
+        <option value="Karnataka">Karnataka</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Pune">Pune</option>
+        <option value="Goa">Goa</option>
+        <option value="Telangana">Telangana</option>
+    </datalist>
+    </div>
+
+    <br>
+
+    <div>
+        <label>Select Food:</label>
+
+        <select name="food" multiple>
+
+        <optgroup label="veg">
+            <option value="Gobi">Gobi</option>
+            <option value="Palaav">Palaav</option>
+            <option value="Idly">Idly</option>
+            <option value="Dosa">Dosa</option>
+            <option value="Vada">Vada</option>
+            <option value="Fried Rice">Fried Rice</option>
+            <option value="Chapathi">Chapathi</option>
+
+        </optgroup>
+        
+        <optgroup label="non-veg">
+            <option value="Biriyani">Biriyani</option>
+            <option value="Egg Rice">Egg Rice</option>
+            <option value="Chicken Rice">Chicken Rice</option>
+            <option value="Chicken Kabab">Chicken Kabab</option>
+
+        </optgroup>
+
+        </select>
+    </div>
+
+    <br>
+
+        <textarea name="feedback" placeholder="Write something...." cols="40" rows="10"></textarea>
+
+    <br>
+
+    <br>
+
+    <div>
+        <input type="submit" value="Sign-up">
+        <button type="submit">Sign-up</button>
+    </div>
+
+    <br>
+
+    <div>
+        <input type="reset" value="Reset">
+        <button type="reset">Reset</button>
+    </div>
+
+
+    </form>
+
+</body>
+</html>
+
+
+    
